@@ -1,6 +1,5 @@
 WINDOWS EXPORTER - GRAFANA
 
-
 Este exportador de métricas recopila información en tiempo real a cerca de:
 
 Dirección IP y nombre del equipo.
