@@ -29,3 +29,5 @@ $sharedTargetPath = "\Ruta\a\la\carpeta\compartida"
 $hostname = "$computerName.dominio"
 
 if (-not $target -or $target.Trim() -eq "" -or $target -eq ":$port" -or $target like "dominio:$port")
+
+Para ejecutar el código se debe de utilizar la extensión .ps1
