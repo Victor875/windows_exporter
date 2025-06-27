@@ -17,6 +17,7 @@ Este exportador de métricas recopila información en tiempo real a cerca de:
 
 Está pensado para utilizarlo con [NSSM](https://nssm.cc/download). Este es una herramienta de código abierto para gestionar servicios en Windows.
 De esta manera, utilizando NSSM conseguimos que el script se habilite como servicio y, logramos que cada vez que el equipo arranque este servicio se habilite y solo se puede parar con permisos elevados, como puede ser, la cuenta de administrador.
+El link que proporciono está totalmente libre de virus, por lo que se puede descargar nssm sin malware.
 
 Se debe de monitorizar con Grafana y Prometheus. Para aplicar esto en una empresa se debe crear una carpeta compartida en red donde todos los equipos expondrán su dirección IP y el puerto que tiene abierto.
 Ya que cada target está asociada al nombre del equipo, escribiendo {job=nombrequipo} podremos ver todos los datos a cerca de ese equipo. Esto se puede configurar al gusto.
